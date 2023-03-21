@@ -10,7 +10,10 @@
 #define C3(x) (x)*C2(x)
 #define C4(x) C2(x)*C2(x)
 
-// usage : gcc digital_heart.c -lGL -lGLU -lglut -lm -o digital_heart
+/* ------------------------------------------------------------------------------------
+   @author: Amadéo
+   usage : usage : gcc digital_heart.c -lGL -lGLU -lglut -lm -o digital_heart
+   ------------------------------------------------------------------------------------ */
 
 unsigned short int a = 400; unsigned short int b = 300;
 unsigned short int a1 = 250; unsigned short int b1 = 0;
