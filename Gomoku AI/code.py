@@ -333,8 +333,8 @@ def actions00(situation) :
 
     res = (E.union(A).union(B).union(C.intersection(D))).difference(cases_deja_jouee)
     
-    F, G = set(), set()
     if len(res) < 10 :
+        F, G = set(), set()
         for barre in fit_barre[0][4] :
             F.update(CASES_JOUABLES_PAR_BARRES[barre])
         F.difference_update(cases_deja_jouee)
@@ -446,8 +446,8 @@ def actions11(situation) :
 
     res = (E.union(A).union(B).union(C.intersection(D))).difference(cases_deja_jouee)
     
-    F, G = set(), set()
     if len(res) < 10 :
+        F, G = set(), set()
         for barre in fit_barre[0][4] :
             F.update(CASES_JOUABLES_PAR_BARRES[barre])
         F.difference_update(cases_deja_jouee)
