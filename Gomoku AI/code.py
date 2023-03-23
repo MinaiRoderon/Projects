@@ -465,7 +465,7 @@ def actions11(situation) :
 
     return res
 
-# lancer jeu() pour jouer, remplacer la fonction affichage2 par affichage pour un plus grand plateau de jeu en sortie
+# run jeu() to play, replace affichage2 function by affichage function in order to display a larger game board
 def jeu() :
     C = set(CASES)
     CASES2 = CASES.copy()
@@ -505,7 +505,7 @@ def jeu() :
     else :
         print("\nL'Adversaire a gagné")
 
-def jeu_without_fitness_displayed() :
+def jeu_without_fitness_displayed() : #without printing the game evaluation bar
     C = set(CASES)
     CASES2 = CASES.copy()
     nb_coups = 0
@@ -582,68 +582,6 @@ def jeu_without_response_time() : #without printing response time
         print("\nIA GAGNE : 'Now it's show time', Amadéo")
     else :
         print("\nL'Adversaire a gagné")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
