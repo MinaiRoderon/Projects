@@ -7,4 +7,8 @@ You'll find here a C code running an animation of a digitalized pulsing heart (u
 
 > To adjust the animation speed, the parameter to modify is `double time_incr` (line 18, increase it to speed up the animation). By default, the animation should run smoothly on a standard computer.  
 
+Here an image of the animation at t=0s:  
+
+<img src="https://i.ibb.co/vQFt0mz/Pulsing-Heart.png" width="350">
+
 *Enjoy*
