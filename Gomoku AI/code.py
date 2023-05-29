@@ -37,22 +37,22 @@ for case in CASES_PROCHES :
     if i+1 <= 14 :
         CASES_PROCHES[case].add(Lignes[i+1]+Colonnes[j])
 
-def affichage2(grille = CASES) : #petit
+def affichage2(grille = CASES) : #small
     print('\n   ', end = '')
     for C in Colonnes :
-        if int(C) < 11 :
-            print('  '+C+' ', end = '')
+        if int(C) < 10 :
+            print('   '+C+' ', end = '')
         else :
-            print(' '+C+' ', end = '')
-    print('\n   '+'-'*61)
+            print('  '+C+' ', end = '')
+    print('\n   '+'-'*76)
     for L in Lignes :
         print(' '+L+' '+'|', end = '')
         for C in Colonnes :
-            print(grille[L+C], end = '')
+            print(grille[L+C]+' ', end = '')
             print(Back.RESET + '|', end = '')
-        print('\n   '+'-'*61)
+        print('\n   '+'-'*76)
 
-def affichage(grille = CASES) : #grand
+def affichage(grille = CASES) : #large
     print('\n   ', end = '')
     for C in Colonnes :
         if int(C) < 10 :
@@ -582,8 +582,3 @@ def jeu_without_response_time() : #without printing response time
         print("\nIA GAGNE : 'Now it's show time', Amadéo")
     else :
         print("\nL'Adversaire a gagné")
-
-
-
-
-
