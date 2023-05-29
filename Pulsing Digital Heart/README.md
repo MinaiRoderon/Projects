@@ -9,6 +9,6 @@ You'll find here a C code running an animation of a digitalized pulsing heart (u
 
 Here an image of the animation at t=0s:  
 
-<img src="https://i.ibb.co/vQFt0mz/Pulsing-Heart.png" width="350">
+<img src="https://i.ibb.co/vQFt0mz/Pulsing-Heart.png" width="500">
 
 *Enjoy*
